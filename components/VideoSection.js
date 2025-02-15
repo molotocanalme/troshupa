@@ -7,7 +7,7 @@ function showReview() {
   videoSectionEl.innerHTML = `
     <div class="row align-items-center">
             <div class="col-12 col-md-6 py-5">
-              <h2>Finsweet was a dream to work with</h2>
+              <h2>Agjenncioni Troshupa ishte një ëndërr për të punuar për të</h2>
               <p class="my-4">
                 Maecenas efficitur scelerisque lorem, et varius lacus tincidunt
                 vel. Pellentesque a arcu vitae diam dapibus mattis vel vel orci.
@@ -23,8 +23,8 @@ function showReview() {
                   style="width: 50px; height: 50px"
                 />
                 <div class="px-3">
-                  <div class="fs-6 cl-blue-700 fw-bold">Chikelu Neo</div>
-                  <span class="mt-1 cl-primary">CEO at MazeAI</span>
+                  <div class="fs-6 cl-blue-700 fw-bold">Filan Fisteku</div>
+                  <span class="mt-1 cl-primary"> Inxhinier</span>
                 </div>
               </figcaption>
             </div>
