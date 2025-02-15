@@ -29,19 +29,19 @@ function Footer() {
 <div class="col-12 col-md-7 col-lg-7">
   <div class="row gy-5">
     <div class="col-6 col-sm-5 col-lg-3">
-      <div class="fw-6">Company</div>
+      <div class="fw-6">Troshupa</div>
       <div class="row gy-2 mt-2">
-        <div><a href="#">About Us</a></div>
-        <div><a href="#">Careers</a></div>
-        <div><a href="#">Services</a></div>
+        <div><a href="#">Rreth nesh</a></div>
+        <div><a href="#">Karriera</a></div>
+        <div><a href="#">Shërbimet</a></div>
         <div><a href="#">Blog</a></div>
       </div>
     </div>
     <div class="col-6 col-sm-5 col-lg-3">
       <div class="fw-6">Connect</div>
       <div class="row gy-2 mt-2">
-        <div><a href="#">hi@beezzly.com</a></div>
-        <div><a href="#">+(123) 456-7890</a></div>
+        <div><a href="#">ytroshupa@.com</a></div>
+        <div><a href="#">+(383) 48/209-781</a></div>
       </div>
     </div>
     <div class="col-10 col-sm-10 col-lg-6">
@@ -53,7 +53,7 @@ function Footer() {
             type="text"
             name=""
             id=""
-            placeholder="Type email here"
+            placeholder="Shkruani emailin këtu"
             required
           />
           <button type="button" class="btn btn-warning rounded-pill bg-brand-primay">
