@@ -50,6 +50,11 @@ function Navbar() {
               </li>
             </ul>
             <a
+             target="_"
+              href="https://github.com/imShivam579/Agency-Website"
+              class="btn btn-outline-warning rounded-pill bg-brand-primayfaint"
+            >
+              Clone App
             </a>
           </div>
     `;
