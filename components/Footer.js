@@ -37,22 +37,6 @@ function Footer() {
         <div><a href="#">+(383) 48/209-781</a></div>
       </div>
     </div>
-    <div class="col-10 col-sm-10 col-lg-6">
-      <div class="fw-6">Join Newsletter</div>
-      <div class="row mt-2">
-        <form>
-          <input
-            class="w-100 my-2 py-2 px-3 rounded-pill border-0"
-            type="text"
-            name=""
-            id=""
-            placeholder="Shkruani emailin këtu"
-            required
-          />
-          <button type="button" class="btn btn-warning rounded-pill bg-brand-primay">
-            Subscribe
-          </button>
-        </form>
       </div>
     </div>
   </div>
