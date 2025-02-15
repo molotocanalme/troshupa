@@ -37,7 +37,7 @@ function Navbar() {
                 >
               </li>
               <li class="nav-item ms-md-1">
-                <a class="nav-link" href="./careers.html">Krriera</a>
+                <a class="nav-link" href="./careers.html">Karriera</a>
               </li>
               <li class="nav-item ms-md-1">
                 <a class="nav-link" href="./service.html">Shërbimet</a>
