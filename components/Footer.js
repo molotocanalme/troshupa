@@ -22,7 +22,7 @@ function Footer() {
 <div class="col-12 col-md-7 col-lg-7">
   <div class="row gy-5">
     <div class="col-6 col-sm-5 col-lg-3">
-      <div class="fw-6">Troshupa</div>
+      <div class="fw-6"></div>
       <div class="row gy-2 mt-2">
         <div><a href="#">Rreth nesh</a></div>
         <div><a href="#">Karriera</a></div>
@@ -31,7 +31,7 @@ function Footer() {
       </div>
     </div>
     <div class="col-6 col-sm-5 col-lg-3">
-      <div class="fw-6">Connect</div>
+      <div class="fw-6"></div>
       <div class="row gy-2 mt-2">
         <div><a href="#">murati.arianit@com</a></div>
         <div><a href="#">+(383) 48/209-781</a></div>
