@@ -5,6 +5,20 @@ function Footer() {
   div.classList.add("container");
   div.innerHTML = `
 <div class="row gy-5">
+<div class="col-12 col-sm-10 col-md-5 col-lg-5">
+  <div class="brand-logo">
+    <!-- Div i zbrazët për të ruajtur pozicionin -->
+  </div>
+  <div class="brand-tagline h2 my-3 w-75">
+    Bespoke software solutions
+  </div>
+  <div class="brand-socials my-3 mt-4">
+    <a href="#" class="mx-2"> <i class="bi bi-facebook"></i></a>
+    <a href="#" class="mx-2"> <i class="bi bi-youtube"></i></a>
+    <a href="#" class="mx-2"> <i class="bi bi-instagram"></i></a>
+    <a href="#" class="mx-2"> <i class="bi bi-twitter"></i></a>
+  </div>
+</div>
 <div class="col-12 col-md-7 col-lg-7">
   <div class="row gy-5">
     <div class="col-6 col-sm-5 col-lg-3">
