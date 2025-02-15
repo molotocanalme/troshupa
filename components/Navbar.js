@@ -33,28 +33,23 @@ function Navbar() {
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link " aria-current="page" href="./aboutUs.html"
-                  >About Us</a
+                  >Rreth nesh</a
                 >
               </li>
               <li class="nav-item ms-md-1">
-                <a class="nav-link" href="./careers.html">Carrers</a>
+                <a class="nav-link" href="./careers.html">Krriera</a>
               </li>
               <li class="nav-item ms-md-1">
-                <a class="nav-link" href="./service.html">Services</a>
+                <a class="nav-link" href="./service.html">Shërbimet</a>
               </li>
               <li class="nav-item ms-md-1">
                 <a class="nav-link" href="./Blog.html">Blog</a>
               </li>
               <li class="nav-item mx-md-1">
-                <a class="nav-link" href="./contact.html">Contact us</a>
+                <a class="nav-link" href="./contact.html">Na kontaktoni</a>
               </li>
             </ul>
             <a
-              target="_"
-              href="https://github.com/imShivam579/Agency-Website"
-              class="btn btn-outline-warning rounded-pill bg-brand-primayfaint"
-            >
-              Clone App
             </a>
           </div>
     `;
