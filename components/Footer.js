@@ -40,7 +40,7 @@ function Footer() {
     <div class="col-6 col-sm-5 col-lg-3">
       <div class="fw-6">Connect</div>
       <div class="row gy-2 mt-2">
-        <div><a href="#">ytroshupa@.com</a></div>
+        <div><a href="#">murati.arianit@com</a></div>
         <div><a href="#">+(383) 48/209-781</a></div>
       </div>
     </div>
