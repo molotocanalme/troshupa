@@ -10,7 +10,7 @@ function Footer() {
     <!-- Div i zbrazët për të ruajtur pozicionin -->
   </div>
   <div class="brand-tagline h2 my-3 w-75">
-    AGJENCIONI TROSHUPA
+    TROSHUPA
   </div>
   <div class="brand-socials my-3 mt-4">
     <a href="#" class="mx-2"> <i class="bi bi-facebook"></i></a>
