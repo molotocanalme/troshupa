@@ -13,6 +13,11 @@ function showReview() {
                 vel. Pellentesque a arcu vitae diam dapibus mattis vel vel orci.
                 Vivamus eleifend nec felis vel auctor.
               </p>
+                <figcaption class="reviewer-info d-flex align-items-center mt-5">
+               
+                </div>
+              </figcaption>
+            </div>
             
             <div
               class="col-12 col-md-6 video-wrapper overflow-hidden b-6 position-relative"
