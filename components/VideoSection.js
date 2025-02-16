@@ -15,6 +15,9 @@ function showReview() {
               </p>
                 <figcaption class="reviewer-info d-flex align-items-center mt-5">
                
+                <div class="px-3">
+                  <div class="fs-6 cl-blue-700 fw-bold"></div>
+                  <span class="mt-1 cl-primary"> </span>
                 </div>
               </figcaption>
             </div>
