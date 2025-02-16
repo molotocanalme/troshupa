@@ -59,11 +59,12 @@
         <div class="container">
           <div class="row g-5">
             <div class="col-12 col-md-6">
-              <form class="row g-3" action="">
+              <form class="row g-3" action="send_email.php" method="post">
                 <div class="form-floating col-12">
                   <input
                     class="form-control border-0 bg-blue-200 rounded-pill px-3"
                     type="text"
+                    name="emri"
                     placeholder="First Name"
                   />
                   <label class="ms-3" for="floatingInput">Emri</label>
@@ -72,6 +73,7 @@
                   <input
                     class="form-control border-0 bg-blue-200 rounded-pill px-3"
                     type="text"
+                    name="mbiemri"
                     placeholder="Last Name"
                   />
                   <label class="ms-3" for="floatingInput">Mbiemri</label>
@@ -80,6 +82,7 @@
                   <input
                     class="form-control border-0 bg-blue-200 rounded-pill px-3"
                     type="email"
+                    name="email"
                     placeholder="Email Id"
                   />
                   <label class="ms-3" for="floatingInput">Email</label>
@@ -88,6 +91,7 @@
                   <input
                     class="form-control border-0 bg-blue-200 rounded-pill px-3"
                     type="number"
+                    name="telefoni"
                     placeholder="Mobile Number"
                   />
                   <label class="ms-3" for="floatingInput">Telefoni</label>
@@ -95,6 +99,7 @@
                 <div class="form-floating col-12">
                   <textarea
                     class="form-control border-0 bg-blue-200 b-6 px-3"
+                    name="mesazhi"
                     placeholder="Lini një koment këtu"
                     id="floatingTextarea2"
                     style="height: 140px; resize: none"
@@ -137,3 +142,25 @@
     <script src="./components/Footer.js"></script>
   </body>
 </html>
+Krijoni një skedar të ri të quajtur send_email.php dhe vendosni kodin PHP të mëposhtëm në të:
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $emri = $_POST['emri'];
+    $mbiemri = $_POST['mbiemri'];
+    $email = $_POST['email'];
+    $telefoni = $_POST['telefoni'];
+    $mesazhi = $_POST['mesazhi'];
+
+    $to = "murati.arianit@gmail.com";
+    $subject = "Mesazh nga formulari i kontaktit";
+    $body = "Emri: $emri\nMbiemri: $mbiemri\nEmail: $email\nTelefoni: $telefoni\nMesazhi: $mesazhi";
+    $headers = "From: $email";
+
+    if (mail($to, $subject, $body, $headers)) {
+        echo "Mesazhi u dërgua me sukses!";
+    } else {
+        echo "Dërgimi i mesazhit dështoi.";
+    }
+}
+?>
