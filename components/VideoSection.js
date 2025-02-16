@@ -13,14 +13,7 @@ function showReview() {
                 vel. Pellentesque a arcu vitae diam dapibus mattis vel vel orci.
                 Vivamus eleifend nec felis vel auctor.
               </p>
-
-              
-                <div class="px-3">
-                  <div class="fs-6 cl-blue-700 fw-bold">Filan Fisteku</div>
-                  <span class="mt-1 cl-primary"> Inxhinier</span>
-                </div>
-              </figcaption>
-            </div>
+            
             <div
               class="col-12 col-md-6 video-wrapper overflow-hidden b-6 position-relative"
             >
