@@ -14,14 +14,7 @@ function showReview() {
                 Vivamus eleifend nec felis vel auctor.
               </p>
 
-              <figcaption class="reviewer-info d-flex align-items-center mt-5">
-                <img
-                  class="rounded-circle"
-                  src="./images/person-img.png"
-                  alt=""
-                  srcset=""
-                  style="width: 50px; height: 50px"
-                />
+              
                 <div class="px-3">
                   <div class="fs-6 cl-blue-700 fw-bold">Filan Fisteku</div>
                   <span class="mt-1 cl-primary"> Inxhinier</span>
