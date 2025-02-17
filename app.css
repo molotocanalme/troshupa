@@ -3,6 +3,14 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+
+/* Navigation Items */
+.nav-item {
+  border: 2px solid orange;
+  padding: 10px;
+  margin: 5px;
+}
+
 /* Brand Logo  */
 .brand-logo {
   max-width: 140px;
