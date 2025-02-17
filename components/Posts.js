@@ -67,7 +67,7 @@ function showPostSection(data) {
         <p class="card-text cl-battelshipGrey-600">
         ${description}
         </p>
-        <a href="./BlogInner.html" class=""><i class="bi bi-arrow-right">card link</i></a>
+        <a href="./BlogInner.html" class="">card link<i class="bi bi-arrow-right"></i></a>
       </div>
     </div>
           `;
