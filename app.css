@@ -7,6 +7,8 @@
 /* Navigation Items */
 .nav-item {
   border: 2px solid orange;
+  border-radius: 25px; /* Makes the border oval */
+  background-color: orange; /* Fills the background with orange */
   padding: 10px;
   margin: 5px;
 }
